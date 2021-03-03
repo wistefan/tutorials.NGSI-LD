@@ -63,7 +63,7 @@ function convertAttributeToLD(attr) {
 }
 
 function convertEntityToLD(json) {
-    const obj = { '@context': dataModelContext };
+    const obj = { };
     Object.keys(json).forEach(function (key) {
         switch (key) {
             case 'id':
